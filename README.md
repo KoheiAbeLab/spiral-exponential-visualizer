@@ -9,19 +9,17 @@ by the **Spiral Exponential Function**, which arises as a solution of the
 ## Overview
 
 This project visualizes the motion of a complex-valued function  
-\( f(t) \in \mathbb{C} \) whose behavior is governed by the geometric relationship
-between its position vector and velocity vector.
+**f(t) ∈ ℂ**, whose behavior is governed by the geometric relationship between
+its position vector and velocity vector.
 
 In the framework of the Spiral Exponential Equation, the key parameter is the
-angle \( \theta \) between these two vectors. By controlling this angle, one
-obtains a continuous family of motions that interpolates between different
-exponential and rotational behaviors.
+angle **θ** between these two vectors. By controlling this angle, one obtains a
+continuous family of motions that interpolates between different exponential
+and rotational behaviors.
 
 A representative solution exhibiting this structure is
 
-\[
-f(t) = \exp\!\bigl(e^{i\theta}\,t\bigr).
-\]
+**f(t) = exp( e^(iθ) · t )**
 
 This repository provides an interactive tool to explore and understand the
 geometry of this solution directly on the complex plane.
@@ -30,40 +28,36 @@ geometry of this solution directly on the complex plane.
 
 ## Mathematical Background
 
-Let \( f(t) \) denote the position in the complex plane.
+Let **f(t)** denote the position in the complex plane.
 
-- **Position vector**:  
-  \( f(t) \), pointing from the origin to the current point.
+- **Position vector**  
+  f(t), pointing from the origin to the current point.
 
-- **Velocity direction**:  
-  Defined by a rotation of the position vector by an angle \( \theta \),
-  \[
-  f'(t) = e^{i\theta} f(t).
-  \]
+- **Velocity direction**  
+  Defined by a rotation of the position vector by an angle θ:  
+  **f′(t) = e^(iθ) · f(t)**
 
-- **Acceleration direction**:  
-  Obtained by a further rotation,
-  \[
-  f''(t) = e^{i2\theta} f(t).
-  \]
+- **Acceleration direction**  
+  Obtained by a further rotation:  
+  **f″(t) = e^(i2θ) · f(t)**
 
-More generally, the \( n \)-th derivative direction follows the rule
-\[
-f^{(n)}(t) \propto e^{in\theta} f(t),
-\]
+More generally, the **n-th derivative direction** follows the rule
+
+**f⁽ⁿ⁾(t) ∝ e^(inθ) · f(t)**
+
 which means that each successive derivative corresponds geometrically to an
-additional rotation by \( \theta \).
+additional rotation by θ.
 
 ---
 
 ## What This Visualization Shows
 
-By varying \( \theta \) continuously, the relative orientation between the
-position and velocity vectors changes. As a result, the trajectory transitions
-smoothly between:
+By varying θ continuously, the relative orientation between the position and
+velocity vectors changes. As a result, the trajectory transitions smoothly
+between:
 
-- **Growth-dominated behavior** (for \( \theta \) near 0), and
-- **Rotation-dominated behavior** (for \( \theta \) near \( \pi/2 \)).
+- **Growth-dominated behavior** (θ near 0)
+- **Rotation-dominated behavior** (θ near π/2)
 
 This application visualizes that continuous family of motions directly in the
 complex plane, making the underlying geometric structure explicit.
@@ -72,31 +66,31 @@ complex plane, making the underlying geometric structure explicit.
 
 ## Features
 
-- Interactive control of the angle \( \theta \) using a slider.
-- Interactive control of time \( t \), allowing the user to move along the
-  trajectory from \( t = 0 \) to the current time.
-- Real-time display of the trajectory \( f(t) \) in the complex plane.
+- Interactive control of the angle **θ** using a slider.
+- Interactive control of time **t**, allowing the user to move along the
+  trajectory from t = 0 to the current time.
+- Real-time display of the trajectory **f(t)** in the complex plane.
 - Visualization of the current position as a point.
 - Optional vector overlays illustrating the geometric structure of derivatives:
-  - **Position vector**
-  - **Velocity direction** (\( \theta \))
-  - **Acceleration direction** (\( 2\theta \))
-  - **Jerk direction** (\( 3\theta \), optional)
-  - **Snap direction** (\( 4\theta \), optional)
+  - Position vector
+  - Velocity direction (θ)
+  - Acceleration direction (2θ)
+  - Jerk direction (3θ, optional)
+  - Snap direction (4θ, optional)
 
 These vectors are shown according to the geometric rule prescribed by the Spiral
 Exponential Equation, rather than as raw numerical derivatives, in order to make
-the rotational structure \( \theta, 2\theta, 3\theta, \dots \) visually clear.
+the rotational structure θ, 2θ, 3θ, … visually clear.
 
 ---
 
 ## Visualization Conventions
 
-- Position vector: **green**
-- Velocity vector: **blue**
-- Acceleration vector: **red**
-- Jerk vector (optional): **purple**
-- Snap vector (optional): **orange**
+- Position vector: <span style="color:green"><strong>green</strong></span>
+- Velocity vector: <span style="color:blue"><strong>blue</strong></span>
+- Acceleration vector: <span style="color:red"><strong>red</strong></span>
+- Jerk vector (optional): <span style="color:purple"><strong>purple</strong></span>
+- Snap vector (optional): <span style="color:orange"><strong>orange</strong></span>
 
 The legend is placed outside the plot area so that the trajectory remains
 unobstructed.
@@ -123,6 +117,7 @@ and is intended as a supplementary tool to aid geometric intuition and
 interpretation of the theory presented there.
 
 ---
+
 
 ## License
 MIT License
