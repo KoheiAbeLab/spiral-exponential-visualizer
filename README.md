@@ -102,8 +102,7 @@ https://github.com/KoheiAbeLab/spiral-exponential-visualizer/releases
 - Complex-plane trajectories necessarily compress higher-order information  
 
 ## Contact
-Kohei Abe
-
+Kohei Abe\n
 ORCID: https://orcid.org/0009-0001-1126-3282
 
 GitHub: https://github.com/KoheiAbeLab
