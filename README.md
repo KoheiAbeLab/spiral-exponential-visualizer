@@ -103,5 +103,7 @@ https://github.com/KoheiAbeLab/spiral-exponential-visualizer/releases
 
 ## Contact
 Kohei Abe
+
 ORCID: https://orcid.org/0009-0001-1126-3282
+
 GitHub: https://github.com/KoheiAbeLab
