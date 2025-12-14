@@ -12,6 +12,8 @@ This tool provides an intuitive way to understand how exponential growth and
 rotational behavior are continuously connected through a single geometric
 parameter.
 
+<img width="700" height="600" alt="Trajectory_Generated_by_the_Spiral_Exponential_Function6" src="https://github.com/user-attachments/assets/19ede006-4292-4b84-a4ee-44999d058d44" /><img width="700" height="600" alt="Trajectory_Generated_by_the_Spiral_Exponential_Function5" src="https://github.com/user-attachments/assets/43f2f3be-aa8c-4e64-8696-d64874a6edbc" /><img width="700" height="600" alt="Trajectory_Generated_by_the_Spiral_Exponential_Function4" src="https://github.com/user-attachments/assets/e8908977-2e18-45fa-8e52-c1b3c2a52f43" />
+
 ## Features
 Visualization of spiral exponential trajectories in the complex plane.  
 Interactive control of the angle θ between position and velocity vectors.  
@@ -46,9 +48,8 @@ pip install numpy matplotlib
 
 ## Installation
 You can install all dependencies using pip:
-```bash
 pip install -r requirements.txt
-```
+
 ## Quick Start
 Clone the repository and run the visualizer:
 ```bash
@@ -59,9 +60,7 @@ python spiral_exponential_visualizer.py
 
 ## Usage
 Run the visualizer:
-```bash
 python spiral_exponential_visualizer.py
-```
 
 Controls:
 Sliders → adjust θ and t
@@ -102,7 +101,8 @@ https://github.com/KoheiAbeLab/spiral-exponential-visualizer/releases
 - Complex-plane trajectories necessarily compress higher-order information  
 
 ## Contact
-Kohei Abe\n
+Kohei Abe
+
 ORCID: https://orcid.org/0009-0001-1126-3282
 
 GitHub: https://github.com/KoheiAbeLab
