@@ -12,7 +12,7 @@ This tool provides an intuitive way to understand how exponential growth and
 rotational behavior are continuously connected through a single geometric
 parameter.
 
-<img width="700" height="600" alt="Trajectory_Generated_by_the_Spiral_Exponential_Function6" src="https://github.com/user-attachments/assets/19ede006-4292-4b84-a4ee-44999d058d44" /><img width="700" height="600" alt="Trajectory_Generated_by_the_Spiral_Exponential_Function5" src="https://github.com/user-attachments/assets/43f2f3be-aa8c-4e64-8696-d64874a6edbc" /><img width="700" height="600" alt="Trajectory_Generated_by_the_Spiral_Exponential_Function4" src="https://github.com/user-attachments/assets/e8908977-2e18-45fa-8e52-c1b3c2a52f43" />
+<img width="700" height="600" alt="Trajectory_Generated_by_the_Spiral_Exponential_Function6" src="https://github.com/user-attachments/assets/19ede006-4292-4b84-a4ee-44999d058d44" /><img width="700" height="600" alt="Trajectory_Generated_by_the_Spiral_Exponential_Function5" src="https://github.com/user-attachments/assets/43f2f3be-aa8c-4e64-8696-d64874a6edbc" /><img width="700" height="600" alt="Trajectory_Generated_by_the_Spiral_Exponential_Function4" src="https://github.com/user-attachments/assets/e8908977-2e18-45fa-8e52-c1b3c2a52f43" /><img width="700" height="600" alt="Trajectory_Generated_by_the_Spiral_Exponential_Function7" src="https://github.com/user-attachments/assets/b295f0aa-e0a3-4578-93f5-e449e1984609" />
 
 ## Features
 Visualization of spiral exponential trajectories in the complex plane.  
